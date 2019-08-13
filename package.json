@@ -1,0 +1,22 @@
+{
+  "name": "demo-api",
+  "version": "0.0.0",
+  "description": "Simpel RESTful web-API med Node.js, Express og MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Emilius <brian@brianemilius.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
